@@ -7,7 +7,7 @@ import app from "./app.js";
 // const DB_HOST =
 //   "mongodb+srv://user-test:xzHmucx8gbL7wmC7@cluster0.tkmkwho.mongodb.net/db-contacts?retryWrites=true&w=majority";
 
-console.log(process.env.DB_HOST);
+// console.log(process.env.DB_HOST);
 const { DB_HOST, PORT = 3002 } = process.env;
 
 mongoose
